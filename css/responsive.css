@@ -1,0 +1,708 @@
+
+/*=========start applying media queries==========*/
+
+/*-------------extra large device---------------------*/
+@media (min-width: 992px) and (max-width: 1199px){
+  /* navbar part start */
+  .main_nav .navbar-nav .nav-item .nav-link {
+    margin-left: 20px;
+  }
+  /* navbar part end */
+
+   /* banner part start */
+#banner {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.banner-content h3 {
+  font-size: 65px;
+  padding-bottom: 10px;
+}
+.banner-content h5 {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+.banner-content a {
+  padding: 10px 40px;
+}
+.banner-content a {
+  margin-bottom: 50px;
+}
+.banner-img-vedio .venobox {
+  padding: 5px 15px;
+}
+.banner-img-vedio {
+  top: 35%;
+  left: 50%;
+}
+/* banner part end */
+
+/* banner-next part start */
+.banner-service i {
+  font-size: 50px;
+}
+.banner-service h5 {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.banner-service p {
+	font-size: 18px;
+	line-height: 25px;
+	padding-bottom: 30px;
+	width: 100%;
+}
+/* banner-next part end */
+
+/* banner-two part start */
+#banner-next {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.banner-next-btn a {
+  padding: 10px 40px;
+}
+/* banner-two part end */
+
+/* works part start from here */
+#works {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.works-title h3 {
+  font-size: 65px;
+}
+.works-title h5 {
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+.works-para p {
+  padding-top: 50px;
+  font-size: 18px;  
+}
+.works-btn a {
+  padding: 10px 30px;
+}
+/* works part end from here */
+
+/* team part start from here */
+#team {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.one {
+  height: 35px;
+  width: 35px;
+  font-size: 13px;
+}
+.two {
+  height: 35px;
+  width: 35px;
+  font-size: 13px;
+}
+#team .fa, .fas {
+  line-height: 35px;
+}
+.team-items span {
+  font-size: 20px;
+  width: 100%;
+  padding-top: 130px;
+  padding-bottom: 15px;
+}
+/* team part end from here */
+
+/* meat part start from here */
+#meat {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.meat-title h3 {
+  font-size: 40px;
+}
+/* meat part end from here */
+
+/* footer part start from here */
+#footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-items {
+  padding-bottom: 30px;
+}
+.footer-items ul li {
+  font-size: 15px;
+}
+.cpoy-right-text p {
+  font-size: 15px;
+  padding-top: 50px;
+}
+/* footer part end from here */
+}
+/*-------------extra large device---------------------*/
+
+
+/*-------------large device---------------------*/
+@media (min-width: 768px) and (max-width: 991.98px){
+   /* navbar part start */
+ .navbar-toggler:focus, .navbar-toggler:hover {
+  outline: none;
+}
+.navbar-toggler-icon {
+display:inline; 
+
+}
+
+.navbar-nav {
+  margin-top: 50px;
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  background-color: red;
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+  background-color: #ff2d55;
+  color: #fff;
+}
+.main_nav .navbar-nav .nav-item .nav-link {
+  text-align: start;
+  color: #000;
+  padding-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.main_nav .navbar-nav .nav-item .nav-link:hover{
+  background-color: #fff;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+.navbar-nav {
+  margin-top: 50px;
+}
+.main_nav .menu_icon i {
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  margin-top: 5px;
+}
+/* navbar part end */
+
+/* banner part start */
+#banner {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.banner-content h3 {
+  font-size: 65px;
+  padding-bottom: 10px;
+}
+.banner-content h5 {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+.banner-content a {
+  padding: 10px 40px;
+}
+.banner-content a {
+  margin-bottom: 50px;
+}
+.banner-img-vedio .venobox {
+  padding: 5px 15px;
+}
+.banner-img-vedio {
+  top: 35%;
+  left: 50%;
+}
+/* banner part end */
+
+/* banner-next part start */
+.banner-service i {
+  font-size: 50px;
+}
+.banner-service h5 {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.banner-service p {
+	font-size: 18px;
+	line-height: 25px;
+	padding-bottom: 30px;
+	width: 100%;
+}
+/* banner-next part end */
+
+/* banner-two part start */
+#banner-next {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.banner-next-btn a {
+  padding: 10px 40px;
+}
+/* banner-two part end */
+
+/* works part start from here */
+#works {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.works-title h3 {
+  font-size: 65px;
+}
+.works-title h5 {
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+.works-para p {
+  padding-top: 50px;
+  font-size: 18px;  
+}
+.works-btn a {
+  padding: 10px 30px;
+}
+/* works part end from here */
+
+/* team part start from here */
+#team {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.one {
+  height: 35px;
+  width: 35px;
+  font-size: 13px;
+}
+.two {
+  height: 35px;
+  width: 35px;
+  font-size: 13px;
+}
+#team .fa, .fas {
+  line-height: 35px;
+}
+.team-items span {
+  font-size: 20px;
+  width: 100%;
+  padding-top: 130px;
+  padding-bottom: 15px;
+}
+/* team part end from here */
+
+/* meat part start from here */
+#meat {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.meat-title h3 {
+  font-size: 40px;
+}
+/* meat part end from here */
+
+/* footer part start from here */
+#footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-items {
+  padding-bottom: 30px;
+}
+.footer-items ul li {
+  font-size: 15px;
+}
+.cpoy-right-text p {
+  font-size: 15px;
+  padding-top: 50px;
+}
+/* footer part end from here */
+
+}
+/*-------------large device---------------------*/
+
+
+/*-------------medius device---------------------*/
+@media (min-width: 576px) and (max-width: 767.98px){
+ /* navbar part start */
+ .navbar-toggler:focus, .navbar-toggler:hover {
+  outline: none;
+}
+.navbar-toggler-icon {
+display:inline; 
+
+}
+
+.navbar-nav {
+  margin-top: 50px;
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  background-color: red;
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+  background-color: #ff2d55;
+  color: #fff;
+}
+.main_nav .navbar-nav .nav-item .nav-link {
+  text-align: start;
+  color: #000;
+  padding-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.main_nav .navbar-nav .nav-item .nav-link:hover{
+  background-color: #fff;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+.navbar-nav {
+  margin-top: 50px;
+}
+.main_nav .menu_icon i {
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  margin-top: 5px;
+}
+/* navbar part end */
+
+/* banner part start */
+#banner {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.banner-content h3 {
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+.banner-content h5 {
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+.banner-content a {
+  padding: 10px 40px;
+}
+.banner-content a {
+  margin-bottom: 50px;
+}
+.banner-img-vedio .venobox {
+  padding: 5px 15px;
+}
+.banner-img-vedio {
+  top: 35%;
+  left: 50%;
+}
+/* banner part end */
+
+/* banner-next part start */
+.banner-service i {
+  font-size: 50px;
+}
+.banner-service h5 {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.banner-service p {
+  font-size: 15px;
+  line-height: 25px;
+  padding-bottom: 30px;
+}
+/* banner-next part end */
+
+/* banner-two part start */
+#banner-next {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.banner-next-btn a {
+  padding: 10px 40px;
+}
+/* banner-two part end */
+
+/* works part start from here */
+#works {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.works-title h3 {
+  font-size: 40px;
+}
+.works-title h5 {
+  font-size: 25px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+.works-para p {
+  padding-top: 50px;
+  font-size: 18px;  
+}
+.works-btn a {
+  padding: 10px 30px;
+}
+/* works part end from here */
+
+/* team part start from here */
+#team {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.one {
+  height: 35px;
+  width: 35px;
+  font-size: 13px;
+}
+.two {
+  height: 35px;
+  width: 35px;
+  font-size: 13px;
+}
+#team .fa, .fas {
+  line-height: 35px;
+}
+.team-items span {
+  font-size: 20px;
+  width: 100%;
+  padding-top: 130px;
+  padding-bottom: 15px;
+}
+/* team part end from here */
+
+/* meat part start from here */
+#meat {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.meat-title h3 {
+  font-size: 40px;
+}
+/* meat part end from here */
+
+/* footer part start from here */
+#footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-items {
+  padding-bottom: 30px;
+}
+.footer-items ul li {
+  font-size: 15px;
+}
+.cpoy-right-text p {
+  font-size: 15px;
+  padding-top: 50px;
+}
+/* footer part end from here */
+
+}
+/*-------------medium device---------------------*/
+
+
+
+
+
+/*-------------extra small device---------------------*/
+@media(min-width: 320px) and (max-width: 575.98px){
+ 
+  /* navbar part start */
+  .navbar-toggler:focus, .navbar-toggler:hover {
+    outline: none;
+  }
+  .navbar-toggler-icon {
+  display:inline; 
+
+  }
+ 
+  .navbar-nav {
+    margin-top: 50px;
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    background-color: red;
+  }
+  .navbar-toggler:not(:disabled):not(.disabled) {
+    background-color: #ff2d55;
+    color: #fff;
+  }
+  .main_nav .navbar-nav .nav-item .nav-link {
+    text-align: start;
+    color: #000;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .main_nav .navbar-nav .nav-item .nav-link:hover{
+    background-color: #fff;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+  .navbar-nav {
+    margin-top: 50px;
+  }
+  .main_nav .menu_icon i {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+  }
+  /* navbar part end */
+
+  /* banner part start */
+  #banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .banner-content h3 {
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+  .banner-content h5 {
+    font-size: 25px;
+    padding-bottom: 30px;
+  }
+  .banner-content a {
+    padding: 10px 40px;
+  }
+  .banner-content a {
+    margin-bottom: 50px;
+  }
+  .banner-img-vedio .venobox {
+    padding: 5px 15px;
+  }
+  .banner-img-vedio {
+    top: 35%;
+    left: 50%;
+  }
+  /* banner part end */
+
+  /* banner-next part start */
+  .banner-service i {
+    font-size: 50px;
+  }
+  .banner-service h5 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .banner-service p {
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 30px;
+  }
+  /* banner-next part end */
+
+  /* banner-two part start */
+  #banner-next {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  .banner-next-btn a {
+    padding: 10px 40px;
+  }
+  /* banner-two part end */
+
+  /* works part start from here */
+  #works {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .works-title h3 {
+    font-size: 40px;
+  }
+  .works-title h5 {
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+  }
+  .works-para p {
+    padding-top: 50px;
+    font-size: 15px;  
+  }
+  .works-para p {
+    padding-top: 5px;
+    font-size: 15px;
+  }
+  .works-btn a {
+    padding: 10px 30px;
+  }
+  /* works part end from here */
+
+  /* team part start from here */
+  #team {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .one {
+    height: 35px;
+    width: 35px;
+    font-size: 13px;
+  }
+  .two {
+    height: 35px;
+    width: 35px;
+    font-size: 13px;
+  }
+  #team .fa, .fas {
+    line-height: 35px;
+  }
+  .team-items span {
+    font-size: 20px;
+    width: 100%;
+    padding-top: 130px;
+    padding-bottom: 15px;
+  }
+  /* team part end from here */
+
+  /* meat part start from here */
+  #meat {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .meat-title h3 {
+    font-size: 40px;
+  }
+  /* meat part end from here */
+
+  /* footer part start from here */
+  #footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .footer-items {
+    padding-bottom: 30px;
+  }
+  .footer-items ul li {
+    font-size: 15px;
+  }
+  .cpoy-right-text p {
+    font-size: 15px;
+    padding-top: 50px;
+  }
+  /* footer part end from here */
+
+
+
+
+
+}
+/*-------------extra small device---------------------*/
+/*=========start applying media queries==========*/
+
+
+
+
+
+
+
+
+
